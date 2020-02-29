@@ -24,10 +24,10 @@ const buildWebpackConfig = merge(baseWebpackConfig, {
 				from: `${PATHS.src}/img`,
 				to: 'img'
 			},
-			{
-				from: `${PATHS.src}/font`,
-				to: 'font'
-			},
+			// {
+			// 	from: `${PATHS.src}/font`,
+			// 	to: 'font'
+			// },
 			{
 				from: `${PATHS.src}/static`,
 				to: ''
